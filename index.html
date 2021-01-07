@@ -1,296 +1,633 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Fendipetroleo - Federación Nacional de Distribuidores de Combustibles y Energéticose</title>
-      <meta charset='utf-8'>
-      <meta content='Description' name=''>
-      <meta content='1 day' name='revisit-after'>
-      <meta content='width=device-width, initial-scale=1' name='viewport'>
-      <link rel="shortcut icon" href="https://fendipetroleo.com/images/favicon.ico" type="image/x-icon">
-      <!-- Fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,300italic,100italic,700italic,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-      <!-- Styles -->
-      <link href="stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css" />
-      <link href="stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css" />
-      <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
-      <!-- HTML5 fallbacks -->
-      <!--[if lt IE 9]>
-      <script src="javascripts/html5shiv.js" type="text/javascript"></script>
-      <script src="javascripts/respond.min.js" type="text/javascript"></script>
-      <![endif]-->
-   </head>
-   <body>
-      <div class='container-fluid'>
-         <header data-spy='affix'>
-            <section>
-               <a class='brand' href='index.html'>
-                  <img src="https://fendipetroleo.com/images/logonal.png?crc=3804338142" class="img-responsive" width="150">
-               </a>
-               <ul id='navigation'>
-                  <div class='trigger'>
-                     <div class='bar'></div>
-                     <div class='bar'></div>
-                     <div class='bar'></div>
-                  </div>
-                  <li>
-                     <a href='index.html'>Inicio</a>
-                     <ul>
-                        <li>
-                           <a href='#'>Memorias del congreso</a>
-                        </li>
-                        <li>
-                           <a href="#">Precios del combustible</a>
-                        </li>
-                        <li>
-                           <a href='#'>Normativo</a>
-                        </li>
-                        <li>
-                           <a href='#'>Convocatorias</a>
-                        </li>
-                        <li>
-                           <a href='#'>Estados financieros</a>
-                        </li>
-                        <li>
-                           <a href='#'>Propuesta de estatutos</a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a href='#'>¿Quiénes somos?</a>
-                     <ul>
-                        <li>
-                           <a href='historia.html'>Historia</a>
-                        </li>
-                        <li>
-                           <a href='#'>Misión y visión</a>
-                        </li>
-                        <li>
-                           <a href='#'>Objetivos estratégicos</a>
-                        </li>
-                        <li>
-                           <a href='#'>Organigrama</a>
-                        </li>
-                     </ul>
-                  </li>
+<html lang="en">
+<head>
+   <title>Fendipetróleo - Federación Nacional de Distribuidores de Combustibles y Energéticose</title>
 
-                  <li>
-                     <a href='#'>Fondo SOLDICOM</a>
-                     <ul>
-                        <li>
-                           <a href='#'>Plan de mejoramiento CGR</a>
-                        </li>
-                        <li>
-                           <a href='#'>Matriz normativa para EDS</a>
-                        </li>
-                        <li>
-                           <a href='#'>Asamblea</a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a href='#'>Prensa</a>
-                  </li>
-                  <li>
-                     <a href='#'>Revista</a>
-                  </li>
-                  <li>
-                     <a href='#'>Convenios</a>
-                  </li>
-                  <li>
-                     <a href='#'>Contáctanos</a>
-                  </li>
-               </ul>
-            </section>
-         </header>
-      <div class='slider'>
-        <ul class='slides'>
-          <li class='slide dark'>
-            <section class='jumbotron'>
-              <div class='bg' style='background-image:url(images/gas1.jpg);'></div>
-              <section>
-                <div class='row'>
-                  <div class='col-md-6'>
-                    <p>Fendipetróleo. <br>Colombia</p>
-                  </div>
-                </div>
-              </section>
-            </section>
-          </li>
-          <li class='slide dark'>
-            <section class='jumbotron'>
-              <div class='bg' style='background-image:url(images/gas2.jpg);'></div>
-              <section>
-                <div class='row'>
-                  <div class='col-md-12 text-center'>
-                    <!-- <h1>Think big.</h1> -->
-                  </div>
-                </div>
-              </section>
-            </section>
-          </li>
-          <li class='slide text-right'>
-            <section class='jumbotron'>
-              <div class='bg' style='background-image:url(images/gas3.jpg);'></div>
-              <section>
-                <div class='row'>
-                  <div class='col-md-12 text-center'>
-                    <h1>
-                     <a href="precios-del-combustible.html" style="color: white;">Precios del combustible</a>
-                    </h1>
-                  </div>
-                </div>
-              </section>
-            </section>
-          </li>
-        </ul>
+   <meta charset="utf-8">
+   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+   <meta name="description" content="">
+
+   <!-- Google Fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CSource+Sans+Pro:400,300,700,600%7CPlayfair+Display:400,700,400italic' rel='stylesheet'>
+
+   <!-- Css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" />    
+   <link rel="stylesheet" href="css/font-icons.css" />
+   <link rel="stylesheet" href="revolution/css/settings.css" />
+   <link rel="stylesheet" href="css/rev-slider.css" />
+   <link rel="stylesheet" href="css/style.css" />
+   <!-- <link rel="stylesheet" href="css/colors/color-main.css" /> -->
+
+   <!-- Favicons -->
+   <link rel="shortcut icon" href="https://fendipetroleo.com/images/favicon.ico" type="image/x-icon">
+   <link rel="apple-touch-icon" href="https://fendipetroleo.com/images/favicon.ico">
+   <link rel="apple-touch-icon" sizes="72x72" href="https://fendipetroleo.com/images/favicon.ico">
+   <link rel="apple-touch-icon" sizes="114x114" href="https://fendipetroleo.com/images/favicon.ico">
+
+</head>
+
+<body data-spy="scroll" data-offset="60" data-target=".nav__holder" id="home">
+
+   <!-- Preloader -->
+   <div class="loader-mask">
+      <div class="loader">
+         <div></div>
+         <div></div>
       </div>
-      <section class='work' id='work'>
-        <div class='row'>
-          <!-- <div class='col-md-8'>
-            <div class='pull-left' id='filter-trigger'>Filter</div>
-            <ul id='filters'>
-              <li>
-                <button data-filter='*'>All</button>
-              </li>
-              <li>
-                <button data-filter='.design'>Design</button>
-              </li>
-              <li>
-                <button data-filter='.photography'>Photography</button>
-              </li>
-              <li>
-                <button data-filter='.illustration'>Illustration</button>
-              </li>
-              <li>
-                <button data-filter='.identity'>Identity</button>
-              </li>
-            </ul>
-          </div> -->
-        </div>
-        <ul class='col-3' id='grid'>
-          <li class='item photography illustration'>
-            <a class='inner' href='single.html' style='background:url(https://blog.fendipetroleo.com/wp-content/uploads/2019/12/estaciondegas.jpg);'>
-              <div class='caption'>
-                <div class='field'>
-                  Diciembre 11 de 2019
-                </div>
-                <div class='titles'>
-                  <div class='title'>Fendipetróleo dice que con fracking o sin él, precio del combustible no cambiará</div>
-                </div>
-              </div>
-            </a>
-          </li>
-          <li class='item photography wide'>
-            <a class='inner' href='single.html' style='background:url(https://blog.fendipetroleo.com/wp-content/uploads/2019/12/Oil-field-pozo-petroleo-696x392-1.jpg);'>
-              <div class='caption'>
-                <div class='field'>
-                  Diciembre 26 de 2019
-                </div>
-                <div class='titles'>
-                  <div class='title'>Proyecciones sobre el sector de hidrocarburos y combustibles para el 2020</div>
-                </div>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <div class='row block'>
-          <div class='col-md-6 col-md-offset-3'>
-            <div class='text-center'>
-              <div class='title-block'>
-                <h3>Fendipetróleo Nacional</h3>
-              </div>
-              <p>La Federación Nacional de Distribuidores de Combustibles y Energéticos – Fendipetróleo, es una organización gremial, creada en 1971 para representar los intereses de los empresarios distribuidores minoristas de combustibles líquidos y gas natural vehicular, promover la sostenibilidad del sector y contribuir al desarrollo social y económico del país.</p>
-              <p>
-                 Fendipetróleo Nacional lo construye el trabajo en equipo de dos Dependencias: Bogotá-Cundinamarca y Antioquia. Más 14 seccionales en todo el país: ADICONAR Nariño -Bolívar, San Andrés y Providencia - Caldas - Caribe - César - Córdoba -DISPEGUAJIRA - Huila y Caquetá - Magdalena Medio - Orinoquía - Quindío - Sucre - Santander - Tolima y Girardot.
-              </p>
-              <p>
-                 Fendipetróleo Nacional administra el Fondo de Protección Solidaria SOLDICOM, creado mediante la Ley 26 de 1989. Por medio de la cual se dictan una serie de disposiciones para el beneficio de los distribuidores minoristas de combustibles líquidos derivados del petróleo en Colombia.
-              </p>
-              <p>La federación pertenece a la Comisión Latinoamericana de Empresarios de Combustibles (CLAEC), organismo conformado por 18 países de América Latina. El cual está encargado de analizar las realidades, perspectivas y desafíos del sector en beneficio de los distribuidores de combustibles y el desarrollo de las naciones.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+   </div>
 
-      <section class="row center-block" style="margin-bottom: 50px;">
-         <div class="col-sm-12 col-md-4 col-md-offset-2">
-            <img src="images/fb.png" class="img-fluid">
-         </div>
-         <div class="col-sm-12 col-md-4">
-            <img src="images/tw.png" class="img-fluid">
-         </div>
-      </section>
+   <!-- Navigation -->
+   <header class="nav nav--dark nav--always-fixed">
+      <div class="nav__holder nav--sticky">
+         <div class="container-fluid container-semi-fluid">
+            <div class="flex-parent">
+               <div class="nav__header clearfix">
+                  <!-- Logo -->
+                  <div class="logo-wrap">
+                     <a href="index.html" class="logo__link">
+                        <img style="max-height: 500px;" class="logo logo--light" src="images/logo.png" width="300" height="auto" alt="logo">
+                     </a>
+                  </div>
 
+                  <button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="nav__icon-toggle-bar"></span>
+                     <span class="nav__icon-toggle-bar"></span>
+                     <span class="nav__icon-toggle-bar"></span>
+                  </button>
+               </div> <!-- end nav-header -->
 
-      <section class='contact top-line mobile-center'>
-        <div class='block'>
-          <div class='row'>
-            <div class='col-md-4'>
-              <div class='row'>
-                <div class='col-md-2'>
-                  <div class='fa fa-building-o'></div>
-                </div>
-                <div class='col-md-10'>
-                  <p>Cra. 18 No. 78 - 40 Oficina 402 </p>
-                  <p>Bogotá D.C. - Colombia</p>
-                </div>
+               <nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse">
+                  <ul class="nav__menu local-scroll" id="onepage-nav">
+
+                     <li class="nav__dropdown active">
+                        <a href="index.html">Inicio</a>
+                        <i class="fa fa-angle-down nav__dropdown-trigger"></i>
+                        <ul class="nav__dropdown-menu">
+                           <li>
+                              <a href='#'>Memorias del congreso</a>
+                           </li>
+                           <li>
+                              <a href="#">Precios del combustible</a>
+                           </li>
+                           <li>
+                              <a href='#'>Normativo</a>
+                           </li>
+                           <li>
+                              <a href='#'>Convocatorias</a>
+                           </li>
+                           <li>
+                              <a href='#'>Estados financieros</a>
+                           </li>
+                           <li>
+                              <a href='#'>Propuesta de estatutos</a>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <li class="nav__dropdown">
+                        <a href="#">¿Quiénes somos?</a>
+                        <i class="fa fa-angle-down nav__dropdown-trigger"></i>
+
+                        <ul class="nav__dropdown-menu">
+                           <li>
+                              <a href='historia.html'>Historia</a>
+                           </li>
+                           <li>
+                              <a href='#'>Misión y visión</a>
+                           </li>
+                           <li>
+                              <a href='#'>Objetivos estratégicos</a>
+                           </li>
+                           <li>
+                              <a href='#'>Organigrama</a>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <li class="nav__dropdown">
+                        <a href="#">Fondo SOLDICOM</a>
+                        <i class="fa fa-angle-down nav__dropdown-trigger"></i>
+                        <ul class="nav__dropdown-menu">
+                           <li>
+                              <a href='#'>Plan de mejoramiento CGR</a>
+                           </li>
+                           <li>
+                              <a href='#'>Matriz normativa para EDS</a>
+                           </li>
+                           <li>
+                              <a href='#'>Asamblea</a>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <li>
+                        <a href='#'>Prensa</a>
+                     </li>
+                     <li>
+                        <a href='#'>Revista</a>
+                     </li>
+                     <li>
+                        <a href='#'>Convenios</a>
+                     </li>
+                     <li>
+                        <a href='#'>Contáctanos</a>
+                     </li>
+                  </ul> <!-- end menu -->
+               </nav> <!-- end nav-wrap --> 
+            </div> <!-- end flex-parent -->
+         </div> <!-- end container -->
+      </div>
+   </header> <!-- end navigation -->
+   <main class="main oh">
+
+    <!-- Revolution Slider -->
+    <section class="bg-dark"> 
+      <div class="rev_slider_wrapper">
+        <div class="rev_slider" id="slider1" data-version="5.0">
+          <ul>
+
+            <!-- SLIDE 1 -->
+            <li data-transition="cube-horizontal"
+              data-easein="default" 
+              data-easeout="default"
+              data-slotamount="1"
+              data-masterspeed="1200"
+              data-delay="8000"
+              data-title="Creative &amp; Emotional"
+              >
+              <!-- MAIN IMAGE -->
+              <img src="images/gas1.jpg"
+                alt=""
+                data-bgrepeat="no-repeat"
+                data-bgfit="cover"
+                data-bgparallax="7"
+                class="rev-slidebg"
+                >
+
+              <!-- LAYER NR. 1 -->
+              <div class="tp-caption hero-text alt-font nocaps rs-parallaxlevel-8"
+                data-x="center"
+                data-y="center"
+                data-voffset="[0]"
+                data-fontsize="[150, 130, 100, 80]"
+                data-textAlign="center"
+                data-frames='[{
+                  "delay":500,
+                  "split":"chars",
+                  "splitdelay":0.2,
+                  "speed":2000,
+                  "split_direction":"random",
+                  "frame":"0",
+                  "from":"y:[-50|50];sX:0.9;sY:0.9;opacity:0;fb:30px;",
+                  "to":"o:1;fb:0px;","ease":"Power2.easeInOut"
+                  },{
+                  "delay":"wait",
+                  "speed":1000,
+                  "frame":"999",
+                  "to":"opacity:0;fb:30px;",
+                  "ease":"Power2.easeInOut"
+                }]'
+                >Fendipetróleo
               </div>
-            </div>
-            <div class='col-md-4'>
-              <div class='row'>
-                <div class='col-md-2'>
-                  <div class='fa fa-phone'></div>
-                </div>
-                <div class='col-md-10'>
-                  <p>PBX: (571) 621 8275 </p>
-                  <p>FAX: (571) 621 8284 </p>
-                </div>
-              </div>
-            </div>
-            <div class='col-md-4'>
-              <div class='row'>
-                <div class='col-md-2'>
-                  <div class='fa fa-envelope-o'></div>
-                </div>
-                <div class='col-md-10'>
-                  <p>contacto@fendipetroleo.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      
-      <footer>
-        <section class='text-center'>
-          <div class='social'>
-            <a class='icon fa fa-facebook' href='#'></a>
-            <a class='icon fa fa-instagram' href='#'></a>
-            <a class='icon fa fa-twitter' href='#'></a>
-          </div>
-
-          <div class='copy'>
-            <img src="https://fendipetroleo.com/images/logonal.png?crc=3804338142" class="img-responsive" width="150">
             
- Todos los derechos reservados © 2020
+            </li> <!-- end slide 1 -->
+
+
+            <!-- SLIDE 2 -->
+            <li data-transition="cube-horizontal"
+              data-easein="default" 
+              data-easeout="default"
+              data-slotamount="1"
+              data-masterspeed="1200"
+              data-delay="8000"
+              data-title="The Art of Design"
+              >
+              <!-- MAIN IMAGE -->
+              <img src="images/gas2.jpg"
+                alt=""
+                data-bgrepeat="no-repeat"
+                data-bgfit="cover"
+                data-bgparallax="7"
+                class="rev-slidebg"
+                >
+
+              <!-- LAYER NR. 1 -->
+              <div class="tp-caption hero-text alt-font nocaps rs-parallaxlevel-8"
+                data-x="center"
+                data-y="center"
+                data-textAlign="center"
+                data-fontsize="[150, 130, 100, 80]"
+
+                data-frames='[{
+                  "delay":500,
+                  "split":"chars",
+                  "splitdelay":0.2,
+                  "speed":2000,
+                  "split_direction":"random",
+                  "frame":"0",
+                  "from":"y:[-50|50];sX:0.9;sY:0.9;opacity:0;fb:30px;",
+                  "to":"o:1;fb:0px;","ease":"Power2.easeInOut"
+                  },{
+                  "delay":"wait",
+                  "speed":1000,
+                  "frame":"999",
+                  "to":"opacity:0;fb:30px;",
+                  "ease":"Power2.easeInOut"
+                }]'
+
+                data-splitout="none">Innovación
+              </div>
+      
+            </li> <!-- end slide 2 -->
+
+
+            <!-- SLIDE 3 -->
+            <li data-transition="cube-horizontal"
+              data-easein="default" 
+              data-easeout="default"
+              data-slotamount="1"
+              data-masterspeed="1200"
+              data-delay="8000"
+              data-title="Amazing Agency"
+              >
+              <!-- MAIN IMAGE -->
+              <img src="images/gas3.jpg"
+                alt=""
+                data-bgrepeat="no-repeat"
+                data-bgfit="cover"
+                data-bgparallax="7"
+                class="rev-slidebg"
+                >
+
+              <!-- LAYER NR. 1 -->
+              <div class="tp-caption hero-text alt-font nocaps rs-parallaxlevel-8"
+                data-x="center"
+                data-y="center"
+                data-fontsize="[150, 130, 100, 80]"
+                data-textAlign="center"
+                data-frames='[{
+                  "delay":500,
+                  "split":"chars",
+                  "splitdelay":0.2,
+                  "speed":2000,
+                  "split_direction":"random",
+                  "frame":"0",
+                  "from":"y:[-50|50];sX:0.9;sY:0.9;opacity:0;fb:30px;",
+                  "to":"o:1;fb:0px;","ease":"Power2.easeInOut"
+                  },{
+                  "delay":"wait",
+                  "speed":1000,
+                  "frame":"999",
+                  "to":"opacity:0;fb:30px;",
+                  "ease":"Power2.easeInOut"
+                }]'
+                >Calidad
+              </div>
+            
+            </li> <!-- end slide 3 -->
+
+          </ul>
+
+          <div class="local-scroll">
+            <a href="#intro" class="scroll-down">
+              <i class="fa fa-angle-down"></i>
+            </a>
           </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="section-wrap intro pb-0 bg-light" id="intro" style="padding-bottom: 50px;">
+      <div class="container intro__body wow slideInUp" data-wow-duration="1.2s" data-wow-delay="0s">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <span class="subheading">El combustible es la energía que mueve la economía del país</span>
+            <p class="intro__text">
+              La Federación Nacional de Distribuidores de Combustibles y Energéticos – Fendipetróleo, es una organización gremial, creada en 1971 para representar los intereses de los empresarios distribuidores minoristas de combustibles líquidos y gas natural vehicular, promover la sostenibilidad del sector y contribuir al desarrollo social y económico del país.
+            </p>
+            <p class="intro__text">
+              Fendipetróleo Nacional lo construye el trabajo en equipo de dos Dependencias: Bogotá-Cundinamarca y Antioquia. Más 14 seccionales en todo el país: ADICONAR Nariño -Bolívar, San Andrés y Providencia - Caldas - Caribe - César - Córdoba -DISPEGUAJIRA - Huila y Caquetá - Magdalena Medio - Orinoquía - Quindío - Sucre - Santander - Tolima y Girardot.
+            </p>
+            <p class="intro__text">
+              Fendipetróleo Nacional administra el Fondo de Protección Solidaria SOLDICOM, creado mediante la Ley 26 de 1989. Por medio de la cual se dictan una serie de disposiciones para el beneficio de los distribuidores minoristas de combustibles líquidos derivados del petróleo en Colombia.
+            </p>
+            <p class="intro__text">
+              La federación pertenece a la Comisión Latinoamericana de Empresarios de Combustibles (CLAEC), organismo conformado por 18 países de América Latina. El cual está encargado de analizar las realidades, perspectivas y desafíos del sector en beneficio de los distribuidores de combustibles y el desarrollo de las naciones.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> <!-- end intro -->
+
+    <!-- Partners -->
+    <!-- <section class="section-wrap section-wrap--sm bg-light">
+      <div class="container">
+
+        <div class="row">
+
+          <div id="owl-partners" class="owl-carousel owl-theme">
+
+            <div class="item">
+              <a href="#">
+                <img src="img/partners/1.png" alt="">
+              </a>
+            </div> 
+
+            <div class="item">
+              <a href="#">
+                <img src="img/partners/2.png" alt="">
+              </a>
+            </div> 
+
+            <div class="item">
+              <a href="#">
+                <img src="img/partners/3.png" alt="">
+              </a>
+            </div> 
+
+            <div class="item">
+              <a href="#">
+                <img src="img/partners/4.png" alt="">
+              </a>
+            </div> 
+
+            <div class="item">
+              <a href="#">
+                <img src="img/partners/5.png" alt="">
+              </a>
+            </div> 
+
+            <div class="item">
+              <a href="#">
+                <img src="img/partners/6.png" alt="">
+              </a>
+            </div> 
+
+            <div class="item">
+              <a href="#">
+                <img src="img/partners/1.png" alt="">
+              </a>
+            </div> 
+
+            <div class="item">
+              <a href="#">
+                <img src="img/partners/2.png" alt="">
+              </a>
+            </div> 
+
+          </div> 
+          
+        </div>
+      </div>
+    </section>  -->
+    <!-- end partners -->
+
+
+    <!-- Featured Works -->
+    <section class="section-wrap pb-0" id="portfolio">
+      <div class="container">
+
+         <div class="row">
+            <section class="d-flex justify-content-between">
+               <div class="col-sm-12 col-md-6 text-right">
+                  <img src="images/fb.png" class="img-fluid">
+               </div>
+               <div class="col-sm-12 col-md-6 text-left">
+                  <img src="images/tw.png" class="img-fluid">
+               </div>
+            </section>
+         </div>
+
+        </div>
         </section>
-      </footer>
+
+    <!-- Call to Action -->
+    <section class="section-wrap call-to-action">
+      <div class="container text-center">     
+        <h2 class="call-to-action__title nocaps">Precio de referencia de la gasolina</h2>
+        <div class="mt-40">
+          <a href="precios-del-combustible.html" class="btn btn-lg btn-color btn-icon">
+            <span>Ver más</span>
+            <i class="fa fa-angle-right"></i>             
+          </a>
+        </div>
+      </div>
+    </section> <!-- end call to action -->
+
+    <!-- From Blog 1 -->
+    <section class="section-wrap from-blog-1 bg-light pb-0" id="blog">
+      <div class="container-fluid no-padding">
+
+        <div class="heading-row text-center">
+          <span class="subheading">Actualizaciones</span>
+          <h2 class="heading">Últimas publicaciones</h2>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-md-6 col-sm-6">
+            <article class="entry from-blog-1__entry">
+              <a href="blog-single.html" class="from-blog-1__entry__link hover-scale">
+                <div class="entry__img-holder from-blog-1__entry__img-holder">
+                  <img src="https://blog.fendipetroleo.com/wp-content/uploads/2019/12/Oil-field-pozo-petroleo-696x392-1.jpg" alt="" class="entry__img from-blog-1__entry__img">
+                </div>
+                <div class="entry__wrap from-blog-1__entry__wrap">
+                  <div class="from-blog-1__entry__inner">
+                    <h4 class="entry__title from-blog-1__entry__title">Proyecciones sobre el sector de hidrocarburos y combustibles para el 2020</h4>
+                    <ul class="entry__meta from-blog-1__entry__meta">
+                      <li>                  Diciembre 26 de 2019
+</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div> <!-- end post -->
+
+
+          <div class="col-md-6 col-sm-6">
+            <article class="entry from-blog-1__entry">
+              <a href="blog-single.html" class="from-blog-1__entry__link hover-scale">
+                <div class="entry__img-holder from-blog-1__entry__img-holder">
+                  <img src="https://blog.fendipetroleo.com/wp-content/uploads/2019/12/estaciondegas.jpg" alt="" class="entry__img from-blog-1__entry__img">
+                </div>
+                <div class="entry__wrap from-blog-1__entry__wrap">
+                  <div class="from-blog-1__entry__inner">
+                    <h4 class="entry__title from-blog-1__entry__title">Fendipetróleo dice que con fracking o sin él, precio del combustible no cambiará</h4>
+                    <ul class="entry__meta from-blog-1__entry__meta">
+                      <li>                  Diciembre 11 de 2019
+</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div> <!-- end post -->
+
+          
+          
+        </div>
+      </div>
+    </section> <!-- end from blog 1 -->
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__widgets">
+          <div class="row">
+
+            <div class="col-md-4">
+              <div class="widget widget__get-in-touch">
+                <h5 class="widget__title nocaps">Contáctanos</h5>
+                <p class="widget__get-in-touch__paragraph">PBX: (571) 621 8275</p>
+                <p class="widget__get-in-touch__paragraph">FAX: (571) 621 8284</p>
+
+                <p class="widget__get-in-touch__paragraph">Email: <a href="mailto:contacto@fendipetroleo.com">contacto@fendipetroleo.com</a></p>
+              </div>
+            </div> <!-- end stay in touch -->
+
+            <div class="col-md-4">
+              <div class="widget widget__footer-logo text-center local-scroll">
+                <a href="#home" class="widget__footer-logo__link">
+                  <img src="images/logo-dark.jpg" alt="">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="widget footer-address-widget text-right">
+                <h5 class="widget__title nocaps">Ubicación</h5>
+                <p class="footer-address">
+Cra. 18 No. 78 - 40 Oficina 402 <br>
+
+Bogotá D.C. - Colombia</p>
+              </div>
+            </div> <!-- end address -->
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm-6 col-xs-12 text-sm-center">
+              <span class="copyright">
+                &copy; Todos los derechos reservados © 2021
+              </span>
+            </div>
+              
+            <div class="col-sm-4 col-sm-offset-2 col-xs-12 text-right text-sm-center">
+              <div class="socials socials--nobase footer__socials clearfix">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>   
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div> <!-- end bottom footer -->
+    </footer> <!-- end footer -->    
+
+    <div id="back-to-top">
+      <a href="#top"><i class="fa fa-angle-up"></i></a>
     </div>
-    <script src="javascripts/jquery.min.js" type="text/javascript"></script>
-    <script src="javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
-    <script src="javascripts/jquery.mobile.custom.min.js" type="text/javascript"></script>
-    <script src="javascripts/tera-slider.js" type="text/javascript"></script>
-    <script src="javascripts/tera-lightbox.js" type="text/javascript"></script>
-    <script src="javascripts/isotope.pkgd.min.js" type="text/javascript"></script>
-    <script src="javascripts/bootstrap.min.js" type="text/javascript"></script>
-    <script src="javascripts/validation.js" type="text/javascript"></script>
-    <script src="javascripts/jquery.placeholder.js" type="text/javascript"></script>
-    <script src="javascripts/waypoints.min.js" type="text/javascript"></script>
-    <script src="javascripts/functions.js" type="text/javascript"></script>
-  </body>
+
+  </main> <!-- end main-wrapper -->
+  
+  <!-- jQuery Scripts -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- 
+    1. Generate your key here - https://developers.google.com/maps/documentation/javascript/get-api-key
+    2. Paste your key in the script below.
+  -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoQ3_zzRfW-hYspkwr5kvwCwLPGZsN4nw"></script>
+  <script type="text/javascript" src="js/gmap3.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script type="text/javascript" src="js/rev-slider.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+
+  <!-- Google Map -->
+  <script type="text/javascript">
+    $(document).ready( function(){
+
+      function initMap() {
+
+        var gmapDiv = $("#google-map");
+        var gmapMarker = gmapDiv.attr("data-address");
+
+        gmapDiv.gmap3({
+          zoom: 16,
+          address: gmapMarker,
+          oomControl: true,
+          navigationControl: true,
+          scrollwheel: false,
+          styles: [
+            {
+            "featureType":"all",
+            "elementType":"all",
+              "stylers":[
+                { "saturation":"0" }
+              ]
+          }]
+        })
+        .marker({
+          address: gmapMarker,
+          icon: "img/map_pin.png"
+        })
+        .infowindow({
+          content: "V Tytana St, Manila, Philippines"
+        })
+        .then(function (infowindow) {
+          var map = this.get(0);
+          var marker = this.get(1);
+          marker.addListener('click', function() {
+            infowindow.open(map, marker);
+          });
+        });
+      }
+
+
+      // Map Button
+      $(".gmap-btn").on("click", function() {
+
+        $(".gmap").slideToggle();
+
+        if ($(this).text() == "Close Map")
+         $(this).text("Open Map")
+        else
+         $(this).text("Close Map");
+      });
+
+      $(".gmap-btn").one("click", function() {
+        setTimeout(function(){
+          initMap();
+        }, 500);
+      });
+
+    });
+  </script>
+
+  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+
+</body>
 </html>
